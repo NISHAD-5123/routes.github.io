@@ -1,0 +1,34 @@
+.navbar{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #338585;
+  font-weight: 900;
+  font-size: 25px;
+}
+button{
+  padding:10px 20px;
+  color:white;
+  background-color: #338585;
+  border-radius: 7px;
+  cursor: pointer;
+  outline:none;
+}
+.navbar ul{
+  display:flex;
+  align-items: center;
+  gap:4rem;
+  justify-content: center;
+  list-style: none;
+  text-decoration: none;
+}
+a.link:hover{
+border: 1px solid #338585;
+}
+a:-webkit-any-link{
+  text-decoration: none;
+  color:white;
+}
+a:-webkit-any-link:hover{
+  color:red;
+}
